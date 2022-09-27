@@ -1,0 +1,115 @@
+/**
+ * file: styles.css
+ **/
+
+:root{
+    /* colors*/
+    --sage:  rgb(129, 203, 139);
+    --sauce:  rgb(246, 104, 28);
+    --cream:  rgb(255, 255, 255);
+
+    /* fonts */
+    --reading: Arial, Helvetica, sans-serif;
+    --headings: "lobster", lobster, serif;
+}
+
+a:hover{
+    color: var(--sauce);
+}
+
+body{
+    background-color: var(--sage);
+    font-family: var(--reading);
+}
+
+.icon{
+    height: 70px;
+    width: auto;
+}
+
+h1{
+    font-family: var(--headings);
+
+}
+
+/* Flexbox sample*/
+.flexMe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ /* ids are called like this*/
+ .solo {
+    background-color: var(--sauce);
+    width: 70%;
+
+        /* margin*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* padding */
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        /*border */
+        border: 10px solid var(--cream);
+        border-radius: 10px;
+}
+
+Img {
+    width: 100%;
+    height: auto;
+}
+
+.triad {
+    background-color: var(--sauce);
+    width: 28%;
+    height: auto;
+
+    /* margin*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding */
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /*border */
+    border: 10px solid var(--cream);
+    border-radius: 10px;
+
+}
+.duo {
+    background-color:var(--sauce);
+    width: 40%;
+    height: auto;
+
+    /* margin*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding */
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /*border */
+    border: 10px solid var(--cream);
+    border-radius: 10px;
+}
+
+.fu{
+    color: var(--cream);
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 1%;
+}
